@@ -44,6 +44,53 @@ h2 {
 section h2 + p {
   text-indent: 2rem;
 }
+a {
+  color: #8b4545;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #654080;
+}
+
+a:hover,
+a:focus {
+  color: #aa6666;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.75em;
+}
+
+ul,
+ol {
+  line-height: 1.6;
+  margin: 1em 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+section ul {
+  list-style-type: square;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
 
 /* header and footer */
 
