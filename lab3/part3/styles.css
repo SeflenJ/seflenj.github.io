@@ -53,3 +53,12 @@ nav a {
 .feature {
   width: 200px;
 }
+.feature {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
